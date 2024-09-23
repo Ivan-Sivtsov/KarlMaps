@@ -1,0 +1,24 @@
+/* ПРАВИЛА ДЛЯ ГЛАВНОЙ СТРАНИЦЫ */
+/* НАСТРОЙКИ КАРТЫ */
+#map   {
+         left: 0px;
+         right: 0px;
+         width: 1519px;
+         height: auto; 
+         /* margin-top: 81px; */
+         margin-top: -90px;
+         margin-left: -8px;
+         margin-bottom: -12px;
+        }
+
+/* МАРКЕРЫ */
+.mark{
+      width: 12px; 
+      position: absolute;
+     }
+
+/* МОСКВА */
+#Moscow{top: 400px; left:376px;}
+
+/* САНКТ-ПЕТЕРБУРГ | ЛЕНИНГРАД */
+#spb{left: 388px; top: 305px;}
