@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html onclick="clck(event)">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KarlMaps</title>
+
+    <link rel="stylesheet" href="assets/css/main-fix.css">
+    <link rel="stylesheet" href="assets/css/mainpage.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Russo+One&display=swap" rel="stylesheet">
+    <script>
+        // window.alert('Здравствуй, уважаемый пользователь! Если Вы пользуетесь мобильным устройством - переверните дисплей в горизонтальное положение. Суть сего сайта проста - Вы наводите курсор мыши на маркер, обозначающий тот или иной город и если Вам интересно получить краткую справку о его названии, просто кликните на маркер. Чтобы закрыть справку, следует кликнуть на окошко со справкой. В случае непредвиденной ошибки просто перезагрузите страницу. Приятного пользования! С отзывами и вопросами обязательно обращайтесь по контактным данным!');
+    </script>
+</head>
+<body background="assets/images/Union_of_Soviet_Socialist_Republics.svg">
+    <div class="container">
+            <div class="header">
+                <img class="logo" src="assets/images/karlmaps.svg" alt="логотип">
+                <div class="menu">
+                    <a href="main.html">ГЛАВНАЯ</a>
+                    <a href="connect.html">СВЯЗЬ</a>                
+                </div>
+            </div>
+        </div>
+        <a title="Сталинодар"><img onclick="Check(this, event)" src="assets/images/SoborVasiliyaBlazhenogo.svg" class="mark" id="Moscow"></a>
+        <a title="Ленинград"><img onclick="Check(this, event)" src="assets/images/spb-most.svg" class="mark" id="spb">  </a>
+        <a title="Ворошиловград"><img onclick="Check(this, event)" src="assets/images/mark.svg" class="mark" id="Lugansk"></a>
+        <a title="Артёмовск"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Artemovsk"></a>
+        <a title="Горький"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="HH"></a>
+        <a title="Жданов"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Mariupol"></a>
+        <a title="Калинин"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Tver"></a>
+        <a title="Фурманов"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Furmanov"></a>
+        <a title="Шталинштадт"><img onclick="Check(this, event)" src="assets/images/est_mark.svg"  class="mark" id="Stadt"></a>
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->
+        <!-- <a title=""><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark"></a> -->                
+    </div> 
+    <div id="info" onclick="Check()">Привет, Егорыч!</div>
+    <script src="assets/js/popups.js">   
+</body>
+</html>

@@ -1,0 +1,84 @@
+/* ПРАВИЛА ДЛЯ ГЛАВНОЙ СТРАНИЦЫ */
+/* НАСТРОЙКИ КАРТЫ */
+
+@keyframes opa {
+      from {
+            opacity: 0;
+      }    
+      to{
+            opacity: 1;
+      }
+}
+
+@keyframes zhopa {
+      from{
+            opacity: 1;
+      }
+      to{
+            opacity: 0;
+      }
+}
+  
+#info{
+      -webkit-user-select: none; 
+      -moz-user-select: none;   
+      -ms-user-select: none;
+      z-index: 100;
+      text-align:center;
+      animation-name: none;
+      animation-duration: none;
+      background-color: white;
+      position: absolute;
+      width: auto;
+      max-width: 300px;
+      height: auto;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+      left: auto;
+      top: auto;
+      opacity: 0;
+      border-radius: 4px;
+}
+
+body{
+      background-size: cover;
+      width: 1480px;
+      height: 1000px;
+      background-repeat: no-repeat;
+
+}
+
+/* АНИМАЦИЯ */
+/* .map#moscow :hover{animation-name: 'mosinfo'; content: "Привет!"} */
+
+/* МАРКЕРЫ */
+.mark{
+      width: 12px; 
+      position: absolute;
+     }
+
+/* МОСКВА */
+#Moscow{top: 385px; left:370px; width: 32px;}
+
+/* САНКТ-ПЕТЕРБУРГ | ЛЕНИНГРАД */
+#spb{left: 375px; top: 300px; width: 38px;}
+
+/* ЛУГАНСК | ВОРОШИЛОВГРАД */
+#Lugansk{top: 500px;left: 255px;}
+
+/* АРТЁМОВСК */
+#Artemovsk{top: 481px;left:257px; width: 10px;}
+
+/* НИЖНИЙ НОВГОРОД | ГОРЬКИЙ */
+#HH{left:415px;top:447px}
+
+/* МАРИУПОЛЬ | ЖДАНОВ */
+#Mariupol{top: 499px;left:212px}
+
+/* ТВЕРЬ | КАЛИНИН */
+#Tver{top: 368px;left: 396px;}
+
+/* ФУРМАНОВ */
+#Furmanov{top:416px; left:415px; width: 10px;}
+
+/* ШТАЛИНШТАДТ */
+#Stadt{left: 188px;top: 212px;}
