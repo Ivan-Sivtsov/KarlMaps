@@ -1,6 +1,55 @@
 /* ПРАВИЛА ДЛЯ ГЛАВНОЙ СТРАНИЦЫ */
 /* НАСТРОЙКИ КАРТЫ */
+/* ЗДЕСЬ СОДЕРЖАТСЯ ПРАВИЛА ТОЛЬКО ДЛЯ ВЕРХНЕГО БЛОКА СТРАНЦИЫ */
 
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Russo+One&display=swap');
+
+.header{
+        display: flex;
+        position: fixed, absolute;
+        /* background-color: rgb(226, 226, 226); */
+        padding: 45px;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: -9px;
+        border-radius: 5%;
+        left: 0px;
+        right: 0px;
+        /* box-shadow: 0px 0px 3px; */
+        z-index: 100
+        }
+
+.menu{
+      position: fixed;
+      top: 34px;
+      right: 30px;
+      word-spacing: 20px;
+      font-family: "Russo One", sans-serif;
+      z-index: 100;
+      }
+
+.logo{
+      position: fixed;
+      width: 270px;
+      left: 7px;
+      top: 12px;
+      z-index: 100;
+      }
+
+/* ССЫЛКИ */
+
+.menu a{
+        text-decoration: none;
+        color: red;
+        }
+.menu a:hover{
+              color: tomato;
+              }
+
+.menu a:active{
+               color: brown;
+               }
+/* АНИМАЦИЯ "ИНФООКОШКА" */
 @keyframes opa {
       from {
             opacity: 0;
@@ -18,7 +67,8 @@
             opacity: 0;
       }
 }
-  
+
+/* ИНФООКОШКО */
 #info{
       -webkit-user-select: none; 
       -moz-user-select: none;   
@@ -30,6 +80,7 @@
       background-color: white;
       position: absolute;
       width: auto;
+      min-width: 150px;
       max-width: 300px;
       height: auto;
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
@@ -39,6 +90,7 @@
       border-radius: 4px;
 }
 
+/* ФОН САЙТА */
 body{
       background-size: cover;
       width: 1480px;
@@ -47,9 +99,6 @@ body{
 
 }
 
-/* АНИМАЦИЯ */
-/* .map#moscow :hover{animation-name: 'mosinfo'; content: "Привет!"} */
-
 /* МАРКЕРЫ */
 .mark{
       width: 12px; 
@@ -57,10 +106,10 @@ body{
      }
 
 /* МОСКВА */
-#Moscow{top: 385px; left:370px; width: 32px;}
+#Moscow{top: 385px; left:365px; width: 32px;}
 
 /* САНКТ-ПЕТЕРБУРГ | ЛЕНИНГРАД */
-#spb{left: 375px; top: 300px; width: 38px;}
+#spb{left: 364px; top: 299px; width: 42px;}
 
 /* ЛУГАНСК | ВОРОШИЛОВГРАД */
 #Lugansk{top: 500px;left: 255px;}
@@ -72,13 +121,138 @@ body{
 #HH{left:415px;top:447px}
 
 /* МАРИУПОЛЬ | ЖДАНОВ */
-#Mariupol{top: 499px;left:212px}
+#Mariupol{top: 510px;left:220px}
 
 /* ТВЕРЬ | КАЛИНИН */
-#Tver{top: 368px;left: 396px;}
+#Tver{top: 370px;left: 370px;}
 
 /* ФУРМАНОВ */
-#Furmanov{top:416px; left:415px; width: 10px;}
+#Furmanov{top:420px; left:422px; width: 10px;}
 
 /* ШТАЛИНШТАДТ */
-#Stadt{left: 188px;top: 212px;}
+#Stadt{left: 190px;top: 214px;}
+
+/* ЭНГЕЛЬС */
+#Engels{left: 336px; top: 548px; width: 10px;}
+
+/* ЧАПАЕВСК */
+#Chapaevsk{left: 416px; top: 537px; width: 10px;}
+
+/* УЛЬЯНОВСК */
+#Ulianovsk{left: 407px; top: 507px;}
+
+/* ТРОЦК */
+#Trock{left: 367px; top: 312px; width: 10px;}
+
+/* НОВОКУЗНЕЦК | СТАЛИНСК */
+#Novokuz{left: 756px; top: 750px;}
+
+/* КАТОВИЦЕ | СТАЛИНОГРУД */
+#Katovice{left: 187px; top: 250px;}
+
+/* НОВОМОСКОВСК | СТАЛИНОГОРОСК */
+#Novomoskovsk{left: 355px; top: 443px; width: 10px;}
+
+/* ДОНЕЦК | СТАЛИНО */
+#Donetsk{left: 238px; top: 503px;}
+
+/* ВАРНА | СТАЛИН */
+#Varna{left: 103px; top: 438px;}
+
+/* ЦХИНВАЛ | СТАЛИНИРИ */
+#Tskhinval{left: 209px; top: 651px;}
+
+/* ВОЛГОГРАД | СТАЛИНГРАД */
+#Volga{left: 273px;top: 527px; width: 28px;}
+
+/* ДУНАЙВАРОШ | СТАЛИНВАРОШ */
+#Donau{left: 124px; top: 298px;}
+
+/* ДУШАНБЕ | СТАЛИНАБАД */
+#Dush{left: 433px; top:917px}
+
+/* ЕКАТЕРИНБУРГ | СВЕРДЛОВСК */
+#Ekaterinburg{left: 485px; top: 610px;}
+
+/* ВЛАДИКАВКАЗ | ОРДЖОНИКИДЗЕ */
+#Vladik{left: 223px; top: 646px}
+
+/* БРАШОВ | ОРАШУЛ-СТАЛИН */
+#Brashov{left: 135px; top: 396px;}
+
+/* ПЕРМЬ | МОЛОТОВ */
+#Perm{left:492px;top:544px}
+
+/* МАХАЧКАЛА */
+#Makhachkala{left: 232px; top:685px}
+
+/* МАРКС */
+#Marx{left: 347px; top: 545px; width: 10px;}
+
+/* ГЮМРИ | ЛЕНИНАКАН */
+#Gumri{left: 197px; top: 672px; width: 10px;}
+
+/* ХУДЖАНД | ЛЕНИНАБАД */
+#Khudzhand{left: 449px; top: 911px}
+
+/* КУЧОВА | КИТЕТИ СТАЛИН */
+#Kuchova{left: 32px; top: 359px;}
+
+/* КРОПИВНИЦКИЙ | КИРОВОГРАД */
+#Kropiva{left: 202px; top: 445px;}
+
+/* ВАНАДЗОР | КИРОВАКАН */
+#Vanadzor{left: 200px; top: 678px; width: 10px;}
+
+/* КИРОВ */
+#Kirov{left: 483px; top: 487px;}
+
+/* СОЛЕДАР | КАРЛО-ЛИБКНЕХТОВСК */
+#Soledar{left: 267px; top: 477px; width: 10px;}
+
+/* КАЛИНИНГРАД */
+#Kaliningrad{left: 272px; top: 263px;}
+
+/* ЛЕВАКАНТ | КАЛИНИНАБАД */
+#Leva{left: 424px; top: 940px;}
+
+/* ЗАПОЛНЕНИЕ */
+.obl{
+      height: 1000px;
+}
+
+/* ДНО */
+.footer{
+      position:absolute;
+      left: 0%;
+      /* ПЕРЕДЕЛАТЬ! */
+      bottom: 0px;
+      width: 1519px;
+      height: 80px;
+      background-color: rgb(116, 116, 116);
+      box-shadow: 14px 0 28px rgba(0, 0, 0, 0.25);
+}
+
+#tg:hover {
+      stroke: #2ea5e1;
+      fill: #2ea5e1;
+}
+
+#tg {
+      position: absolute;
+      width: 40px;
+      top: 18px;
+      right: 20px;
+      stroke: black;
+      fill: black;
+      margin: 0px;
+}
+
+svg path {
+      right: 5px;
+      position: relative;
+      stroke: inherit;
+      stroke-width: inherit;
+      fill: inherit;
+}
+

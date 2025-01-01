@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="718.000000pt"
+   height="1280.000000pt"
+   viewBox="0 0 718.000000 1280.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg1"
+   sodipodi:docname="mark_over_city.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="0.4"
+     inkscape:cx="498.75"
+     inkscape:cy="815"
+     inkscape:window-width="1751"
+     inkscape:window-height="1020"
+     inkscape:window-x="596"
+     inkscape:window-y="156"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1" />
+  <metadata
+     id="metadata1">
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+</metadata>
+  <g
+     transform="matrix(0.1,0,0,-0.1,0,1280)"
+     fill="#f44336"
+     stroke="none"
+     id="g1"
+     style="display:inline">
+    <path
+       d="m 3370,12794 c -19,-2 -87,-9 -150,-15 C 2169,12680 1189,12085 593,11185 134,10492 -81,9601 30,8855 210,7651 1124,5252 2673,1920 3003,1210 3579,10 3590,10 c 11,0 587,1200 917,1910 1318,2835 2200,5054 2523,6350 155,621 182,978 110,1470 -122,834 -546,1611 -1185,2169 -554,484 -1211,776 -1950,867 -122,15 -556,27 -635,18 z m 560,-2027 c 631,-150 1080,-605 1222,-1239 20,-90 23,-130 23,-313 0,-164 -4,-230 -18,-300 -132,-647 -615,-1132 -1265,-1267 -155,-32 -449,-32 -604,0 -650,135 -1133,620 -1265,1267 -28,138 -25,473 5,611 30,139 64,239 127,371 214,450 623,771 1111,872 143,30 141,30 359,26 171,-3 215,-7 305,-28 z"
+       id="path1"
+       style="mix-blend-mode:color-dodge;fill-rule:nonzero;fill:#fc9b00;fill-opacity:1" />
+  </g>
+</svg>
