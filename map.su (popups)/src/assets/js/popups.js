@@ -72,6 +72,10 @@ function GiveInfo(mark, evt){
         console.log('>800')
         var y = Math.ceil(evt.clientY+scrollY)-about_sobor.offsetHeight+'px';
     }
+    else if((Math.ceil(evt.clientY+scrollY+about_sobor.offsetHeight)>1000)){
+        console.log('>1000');
+        var y = Math.ceil(evt.clientY+scrollY)-(about_sobor.offsetHeight/10)+'px';
+    }
     console.log('x = ', x);
     console.log('y = ', y);
     about_sobor.style.left = x;
