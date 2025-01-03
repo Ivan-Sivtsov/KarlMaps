@@ -1,9 +1,0 @@
-/* #vk svg:hover{stroke:red; fill:red} */
-#vk:hover{stroke:rgb(0, 115, 247); fill:rgb(0, 115, 247);}
-#vk{width: 50px;stroke: black; fill:black}
-
-svg path {
-    stroke:inherit;
-    stroke-width:inherit;
-    fill:inherit;
-    }
