@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- <html onclick="clck(event)"> -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >KarlMaps</title>
+
+    <link rel="icon" href="assets/images/est_mark.svg" type="image/x-icon"> 
+
+    <link rel="stylesheet" href="assets/css/mainpage.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Russo+One&display=swap" rel="stylesheet">
+    <script>
+        // window.alert('Здравствуй, уважаемый пользователь! Если Вы пользуетесь мобильным устройством - переверните дисплей в горизонтальное положение. Суть сего сайта проста - Вы наводите курсор мыши на маркер, обозначающий тот или иной город и если Вам интересно получить краткую справку о его названии, просто кликните на маркер. Чтобы закрыть справку, следует кликнуть на окошко со справкой. В случае непредвиденной ошибки просто перезагрузите страницу. Приятного пользования! С отзывами и вопросами обязательно обращайтесь по контактным данным!');
+        if(screen.width < screen.height){
+            window.alert("Переверните устройство в горизонтальное положение, иначе сайт может отображаться некорректно");
+        }
+    </script>
+</head>
+<body background="assets/images/Union_of_Soviet_Socialist_Republics.svg">
+    <div class="container">
+            <div class="header">
+               <a href="main.html"><img class="logo" src="assets/images/karlmaps.png" alt="логотип"></a>
+            </div>
+        </div>
+        <a title="Карло-Либкнехтовск"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Soledar"></a>                
+        <a title="Орашул-Сталин"><img onclick="Check(this, event)" src="assets/images/est_mark.svg"  class="mark" id="Brashov"></a>                
+        <a title="Ворошиловград"><img onclick="Check(this, event)" src="assets/images/mark.svg" class="mark" id="Lugansk"></a>
+        <a title="Китети Сталин"><img onclick="Check(this, event)" src="assets/images/est_mark.svg"  class="mark" id="Kuchova"></a>                
+        <a title="Орджоникидзе"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Vladik"></a>                
+        <a title="Сталиногорск"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Novomoskovsk"></a>
+        <a title="Шталинштадт"><img onclick="Check(this, event)" src="assets/images/est_mark.svg"  class="mark" id="Stadt"></a>
+        <a title="Сталиногруд"><img onclick="Check(this, event)" src="assets/images/est_mark.svg"  class="mark" id="Katovice"></a>
+        <a title="Сталинварош"><img onclick="Check(this, event)" src="assets/images/est_mark.svg"  class="mark" id="Donau"></a>                
+        <a title="Калининабад"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Gumri"></a>                
+        <a title="Калининград"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Kaliningrad"></a>    
+        <a title="Свердловск"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Ekaterinburg"></a>                
+        <a title="Сталинабад"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Dush"></a>                
+        <a title="Сталинодар"><img onclick="Check(this, event)" src="assets/images/SoborVasiliyaBlazhenogo.png" class="mark" id="Moscow"></a>
+        <a title="Сталинград"><img onclick="Check(this, event)" src="assets/images/volgograd-rodina-mat.svg"  class="mark" id="Volga"></a>                
+        <a title="Кировоград"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Kropiva"></a>                
+        <a title="Ульяновск"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Ulianovsk"></a>
+        <a title="Ленинград"><img onclick="Check(this, event)" src="assets/images/spb-most.svg" class="mark" id="spb">  </a>
+        <a title="Артёмовск"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Artemovsk"></a>
+        <a title="Сталинири"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Tskhinval"></a>                
+        <a title="Кировакан"><img onclick="Check(this, event)" src="assets/images/mark_over_city.svg"  class="mark" id="Vanadzor"></a>                
+        <a title="Махачкала"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Makhachkala"></a>                
+        <a title="Ленинабад"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Khudzhand"></a>                
+        <a title="Фурманов"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Furmanov"></a>
+        <a title="Левакант"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Leva"></a>                
+        <a title="Чапаевск"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Chapaevsk"></a>
+        <a title="Сталинск"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Novokuz"></a>
+        <a title="Куйбышев"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Samara"></a>                
+        <a title="Молотов"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Perm"></a>                
+        <a title="Сталино"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Donetsk"></a>
+        <a title="Горький"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="HH"></a>
+        <a title="Калинин"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Tver"></a>
+        <a title="Энгельс"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Engels"></a>
+        <a title="Сталин"><img onclick="Check(this, event)" src="assets/images/est_mark.png"  class="mark" id="Varna"></a>
+        <a title="Жданов"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Mariupol"></a>
+        <a title="Троцк"><img onclick="Check(this, event)" src="assets/images/mark_over_city.svg"  class="mark" id="Trock"></a>
+        <a title="Маркс"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Marx"></a>                
+        <a title="Киров"><img onclick="Check(this, event)" src="assets/images/mark.svg"  class="mark" id="Kirov"></a>   
+
+    </div> 
+    <!-- <div id="info" onclick="Check()">Привет, Егорыч!</div> -->
+    <!-- <div class="obl">
+        <div class="footer">
+            <a href="https://t.me/Sivtsov_Ivan" target="_blank"><svg id="tg" width="40" height="40" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M690.322 121.817C690.322 121.817 755.077 96.5665 749.68 157.888C747.882 183.138 731.693 271.513 719.102 367.103L675.932 650.265C675.932 650.265 672.335 691.747 639.957 698.962C607.578 706.175 559.013 673.712 550.018 666.497C542.823 661.087 415.113 579.925 370.143 540.247C357.552 529.425 343.162 507.782 371.942 482.532L560.812 302.175C582.397 280.532 603.982 230.032 514.043 291.353L262.218 462.693C262.218 462.693 233.438 480.728 179.477 464.497L62.557 428.425C62.557 428.425 19.3868 401.372 93.1358 374.317C273.012 289.548 494.258 202.977 690.322 121.817Z" fill="black"/>
+                </svg>
+                </a>
+        </div>
+    </div> -->
+    <script src="assets/js/popups 2.0.js"></script>   
+</body>
+
+</html>
