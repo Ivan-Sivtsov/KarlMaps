@@ -72,6 +72,7 @@
 /* ИНФООКОШКО */
 #info{
       display:none;
+      font-size: 17px;
       -webkit-user-select: none; 
       -moz-user-select: none;   
       -ms-user-select: none;
@@ -230,4 +231,5 @@ svg path {
 
 #Stalin{
       height: auto;
+      border-radius: 4%;
 }
