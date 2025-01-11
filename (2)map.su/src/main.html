@@ -14,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Russo+One&display=swap" rel="stylesheet">
     <script>
-        // window.alert('Здравствуй, уважаемый пользователь! Если Вы пользуетесь мобильным устройством - переверните дисплей в горизонтальное положение. Суть сего сайта проста - Вы наводите курсор мыши на маркер, обозначающий тот или иной город и если Вам интересно получить краткую справку о его названии, просто кликните на маркер. Чтобы закрыть справку, следует кликнуть на окошко со справкой. В случае непредвиденной ошибки просто перезагрузите страницу. Приятного пользования! С отзывами и вопросами обязательно обращайтесь по контактным данным!');
         if(screen.width < screen.height){
             window.alert("Переверните устройство в горизонтальное положение, иначе сайт может отображаться некорректно");
         }
@@ -66,6 +65,15 @@
         <a title="Киров"><img onclick="Check(this, event)" src="assets/images/mark.png"  class="mark" id="Kirov"></a>   
     </div> 
     <script src="assets/js/popups 2.0.js"></script>   
+        <script>
+        if((document.documentElement.clientWidth != 1519) || (document.documentElement.clientHeight < 730)){
+            document.getElementById('Mariupol').style.top = "506px";
+            document.getElementById('Varna').style.top = "433px";
+            document.getElementById('Makhachkala').style.top = "681px";
+            document.getElementById('Makhachkala').style.left = "229px";
+            document.getElementById('Stadt').style.top = "210px";
+        }
+    </script>
 </body>
 
 </html>
