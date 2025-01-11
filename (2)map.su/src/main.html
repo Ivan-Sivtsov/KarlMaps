@@ -14,8 +14,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Russo+One&display=swap" rel="stylesheet">
     <script>
-        if(screen.orientation.angle == 0){
-            window.alert("Переверните устройство в горизонтальное положение, иначе сайт может отображаться некорректно");
+        if(screen.width < screen.height){
+            if(screen.orientation.angle == 0){
+                window.alert("Переверните устройство в горизонтальное положение, иначе сайт может отображаться некорректно");
+            }
         }
     </script>
 </head>
