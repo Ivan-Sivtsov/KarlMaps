@@ -233,3 +233,10 @@ svg path {
       height: auto;
       border-radius: 4%;
 }
+
+#rights{
+      position: absolute;
+      top: 967px;
+      left: 700px;
+      opacity: 0;
+}
